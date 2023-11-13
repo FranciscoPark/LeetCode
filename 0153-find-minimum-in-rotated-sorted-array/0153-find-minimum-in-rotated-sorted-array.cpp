@@ -16,9 +16,9 @@ public:
             int mid = l + (r - l) / 2;
             res = min(res, nums[mid]);
 
-            if (nums[mid] >= nums[l]) // mid present in left sorted array
+            if (nums[mid] >= nums[l]) 
             {
-                l = mid + 1; // try to move closer to right sorted array
+                l = mid + 1; 
             }
             else
             {
